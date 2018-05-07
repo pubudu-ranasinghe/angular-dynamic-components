@@ -14,8 +14,6 @@ export class AppComponent {
     new DynamicItem(CardComponent, { title: 'Phoenix'}),
     new DynamicItem(CardComponent, { title: 'Unicorn'}),
     new DynamicItem(CardComponent, { title: 'Dwarf'}),
-    new DynamicItem(CardComponent, { title: 'Elf'}, [
-      new DynamicItem(CardComponent, { title: 'Nested'})
-    ])
+    new DynamicItem(CardComponent, { title: 'Elf'})
   ];
 }
